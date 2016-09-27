@@ -1,0 +1,17 @@
+<BuildConfig>
+  	<HorizonEngineRoot>../../../</HorizonEngineRoot>
+	<ProjectRoot>../../../thirdparty/libSqlite3/</ProjectRoot>
+	<ProjectBuildRoot>../../../thirdparty/libSqlite3/sqlite3/</ProjectBuildRoot>
+	<ProjectBuildArch>armv7-a</ProjectBuildArch>
+	<ProjectBuildPlatform>android</ProjectBuildPlatform>
+	<ProjectBuildConfig>Debug</ProjectBuildConfig>
+  	<ProjectGeneratedExtraFlag> </ProjectGeneratedExtraFlag>
+	<ProjectBuildExtraFlag> </ProjectBuildExtraFlag>
+	<GenerateOnly>False</GenerateOnly>
+
+  	<!-- CMake relate config-->
+ 	<CMakeGenerator>Visual Studio 14 2015</CMakeGenerator>
+	<!-- Android config-->
+	<AndroidTargetAPI>9</AndroidTargetAPI>
+	<AndroidMinAPI>9</AndroidMinAPI>
+</BuildConfig>

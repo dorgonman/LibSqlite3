@@ -1,0 +1,20 @@
+<BuildConfig>
+    <HorizonEngineRoot>../../../</HorizonEngineRoot>
+    <ProjectRoot>../../../thirdparty/libSqlite3/</ProjectRoot>
+    <ProjectBuildRoot>../../../thirdparty/libSqlite3/sqlite3/</ProjectBuildRoot>
+    <ProjectBuildArch>iphonesimulator</ProjectBuildArch>
+    <ProjectBuildPlatform>ios</ProjectBuildPlatform>
+    <ProjectBuildConfig>Debug</ProjectBuildConfig>
+    <ProjectGeneratedExtraFlag> </ProjectGeneratedExtraFlag>
+    <ProjectBuildExtraFlag> </ProjectBuildExtraFlag>
+    <GenerateOnly>False</GenerateOnly>
+
+    <!-- CMake config-->
+    <CMakeGenerator>Xcode</CMakeGenerator>
+
+    <!-- iOS config-->
+    <IOSSDKRoot>iphonesimulator</IOSSDKRoot>
+    <IOSSupportedPlatforms>iphoneos iphonesimulator</IOSSupportedPlatforms>
+    <IOSEffectivePlatforms>-iphoneos;-iphonesimulator</IOSEffectivePlatforms>
+    <IOSEnableBitCode>NO</IOSEnableBitCode>
+</BuildConfig>

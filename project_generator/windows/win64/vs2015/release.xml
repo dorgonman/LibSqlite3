@@ -1,0 +1,15 @@
+<BuildConfig>
+ 	<HorizonEngineRoot>../../../</HorizonEngineRoot>
+	<ProjectRoot>../../../thirdparty/libSqlite3/</ProjectRoot>
+	<ProjectBuildRoot>../../../thirdparty/libSqlite3/sqlite3/</ProjectBuildRoot>
+	<ProjectBuildArch>vs2015</ProjectBuildArch>
+	<ProjectBuildPlatform>win64</ProjectBuildPlatform>
+	<ProjectBuildConfig>Release</ProjectBuildConfig>
+  	<ProjectGeneratedExtraFlag> </ProjectGeneratedExtraFlag>
+	<ProjectBuildExtraFlag> </ProjectBuildExtraFlag>
+	<GenerateOnly>False</GenerateOnly>
+
+  	<!-- CMake relate config-->
+  	<CMakeGenerator>Visual Studio 14 2015 Win64</CMakeGenerator>
+  
+</BuildConfig>
