@@ -77,6 +77,13 @@ public class sqlite3Static : ModuleRules
                 string libFullName = libNamePrefix + libName + libNameSuffix;
                 libraryTargetFilePath = Path.Combine(libraryPath, libFullName);        
             }
+
+            if (WindowsPlatform.Compiler == WindowsCompiler.VisualStudio2017)
+            {
+                libraryPath = getLibraryPath("win64", "vs2017");
+                string libFullName = libNamePrefix + libName + libNameSuffix;
+                libraryTargetFilePath = Path.Combine(libraryPath, libFullName);        
+            }
         }
         else if (Target.Platform == UnrealTargetPlatform.Win32)
         {
@@ -85,6 +92,13 @@ public class sqlite3Static : ModuleRules
             if (WindowsPlatform.Compiler == WindowsCompiler.VisualStudio2015)
             {
                 libraryPath = getLibraryPath("win32", "vs2015");
+                string libFullName = libNamePrefix + libName + libNameSuffix;
+                libraryTargetFilePath = Path.Combine(libraryPath, libFullName);      
+            }
+
+            if (WindowsPlatform.Compiler == WindowsCompiler.VisualStudio2017)
+            {
+                libraryPath = getLibraryPath("win32", "vs2017");
                 string libFullName = libNamePrefix + libName + libNameSuffix;
                 libraryTargetFilePath = Path.Combine(libraryPath, libFullName);      
             }
