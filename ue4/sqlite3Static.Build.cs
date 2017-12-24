@@ -34,8 +34,10 @@ using System.IO;
 public class sqlite3Static : ModuleRules
 {
 
-	public sqlite3Static(TargetInfo Target)
-	{
+   public sqlite3Static(ReadOnlyTargetRules Target)
+        : base(Target)
+    {
+        PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs;
 		Type = ModuleType.External;
         checkExternalLibPath();
      
@@ -58,7 +60,7 @@ public class sqlite3Static : ModuleRules
 
 
 
-    private bool AddStaticLibrary(TargetInfo Target)
+    private bool AddStaticLibrary(ReadOnlyTargetRules Target)
     {
         bool bSuccess = false;
 
